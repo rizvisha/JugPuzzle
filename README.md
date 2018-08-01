@@ -2,7 +2,7 @@
 
 JugPuzzle1 contains the code for the puzzle game to be played through the console.
 
-JugPuzzle2 contains the code for the puzzle g ame to be played with a GUI.
+JugPuzzle2 contains the code for the puzzle game to be played with a GUI.
 
 Here is how the game works,
 
