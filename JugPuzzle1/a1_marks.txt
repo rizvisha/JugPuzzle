@@ -1,0 +1,164 @@
+A1 Part1
+Part 1 Question 1:
+
+	=======================================================
+	[ Marking scheme for each function ]
+        4/4 Simple, clear, concise and correct
+        3/4 Looks almost correct but fails some tests, OR
+		Correct, but long for what it does, or not simple
+		not clear, not concise
+        2/4 Has a conceptual error, pieces there but does
+                not come together to solve the problem
+        1/4 Java attempt to solve the problem
+	=======================================================
+
+	Marks –
+
+	4/4 Code for 1c – primesLessThan [see marking scheme above]
+
+	4/4 Code for 1d – primesLessThanSieveRemove [see marking scheme above]
+
+	4/4 Code for 1e – primesLessThanSieveAdd [see marking scheme above]
+
+	3/4 Code for 1f – primesLessThanSieveRemove2 [see marking scheme above]
+
+	---
+
+	4/4 JUnit Test Cases
+		[Y] - test simple cases (1 for all/most, 0.5 for some)
+		[Y] - test odd cases (1 for all/most, 0.5 for some)
+		[Y] - meaningful string arg in assert (1 for all/most, 0.5 for some)
+		[Y] - proper formatting (includes @Test, uses assertArrayEquals, or assertTrue(Arrays.equals)..) (1 for all/most, 0.5 for some)
+
+	---
+
+	2/2 Documentation
+		[Y] - method docs present (1 for present for all/most, 0.5 if present for some)
+		[Y] - method docs good (1 for good for all/most, 0.5 if good for some)
+
+	0/1 Class documentation –
+		[N] - description is present and good (doc description of Primes class)
+
+	---
+
+	1/2 Explanation
+		[0.5] - answer is provided (1 for correct; 0.5 for attempt)
+		[0.5] - answer includes discussion of algorithms/datastructure (1 for correct; 0.5 for attempt)
+
+Total: 22/25
+
+------------------------
+
+Part 1 Question 2:
+        4/5 Code:
+              5/5 Simple, clear, concise, good OO design
+                   - Has JugPuzzle and Jug
+                   - Jug knows how to spill into another Jug, can see this
+                     in JugPuzzle's move method, which should be essentially
+
+                     this.jug[from].spillinto(this.jug[to]);
+
+                   - Code is very easy to understand
+                   - For the most part, variable names are good
+                   - instance variables are private
+                   - some methods are public as appropriate
+
+               4/5 Works, but does not stick to good OO principles,
+                   not as clear, not simple, short.
+
+                   - JugPuzzle manipulates Jug amounts to
+                     spill between jugs. This is really a Jug concept
+                     and should be left in Jug.
+
+                   - Does not make good use of Java arrays, for example
+                     creates three different Jugs in JugPuzzle, with different
+                     names.
+
+                   - instance variables are not private
+                   - uses instance variables directly from outside the class.
+
+                   - Jugs have a number instance variable associated with them.
+                     This number is not really a Jug concept, it is a JugPuzzle
+                     concept!
+
+              3/5 Some serious conceptual misunderstanding.
+                   - Pieces are there but does not come together.
+                   - Does not run.
+                   - Missing Jug class
+                   - static variables
+
+              2/5 Better than 1/5 but not 3/5
+
+              1/5 Clearly does not understand Java
+                   - Won't compile
+                   - Won't run
+
+              0/5 Nothing really beyond starter code submitted
+
+        4/5 Doc: (JavaDoc for classes Jug, JugPuzzle,
+              for important public methods, for instance variables)
+
+              5/5 Meaningful and complete JavaDoc
+                   - For the class Jug
+                   - For the class JugPuzzle
+                   - For each public method (except simple getters and setters)
+                   - documentation for all instance variables, with constraints
+                     on their relationship, that is 0<=amount<=capacity
+
+              4/5 Token javadoc in a few places, real meaningful and complete in others
+                   - For the class Jug
+                   - For the class JugPuzzle
+                   - For each public method (except simple setters and getters)
+                   - some documentation on instance variables
+
+              3/5 Missing documentation in one of the following
+                   - The class Jug
+                   - The class JugPuzzle
+                   - Some important public methods
+                   - some documentation on instance variables
+
+              2/5 Missing documentation in two of the above
+
+              1/5 Missing documentation in three of the above
+
+              0/5 Basically no documentation
+
+        5/5 Testing: JUnit Testing
+
+              5/5 Meaningful and complete JUnit test cases for
+                   - each public method in Jug and JugPuzzle (except setters and getters)
+                   - each public method in Jug and JugPuzzle has its own testX method
+                   - each testX method has between 10 and 30 tests
+                     except for setters/getters (which need none).
+                     Constructors also require fewer tests cases.
+
+                   - each testX method tests both normal and edge cases
+                   - each testX method includes a string indicating the issue when the test fails
+
+              4/5 As above, except missing thorough testing, missing a few testX methods,
+                  not testing edge cases, suggestive but not meaningful strings.
+                  Did not organize the test cases as Eclipse would have liked (one testX for method X).
+
+              3/5 Missing two of the required features for 5/5 above.
+
+                  - A serious, but disorganized/incomplete attempt at testing.
+
+              2/5 Missing three of the required features for 5/5 above.
+
+                  - I can see that you have tests, not enough, and I don't know
+                    what you are testing. For example, test a few things in
+                    a single test method.
+
+              1/5 Missing four of the required features for 5/5 above.
+
+              0/5 Missing five of the required features for 5/5 above.
+
+Total: 13/15
+
+------------------------
+
+
+TOTAL on A1 Part 1: ((MARK FOR Q1/25)*.2 + (MARK FOR Q2/15) * .8)*100 = 87
+
+
+------------------------

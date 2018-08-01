@@ -1,0 +1,72 @@
+# Fill in, commit and push each day.
+
+Oct 6, 2016
+	Yesterday : 
+		I completed the initial JugPuzzle Model classes
+	
+	Today     : Add Scrum framework documents to project. Proofread 
+		        and post the assignment. Send message to all students
+		        about the availability of the assignment.
+	
+	Obstacles : Started the assignment. Made JugButtonActionListener, JugPuzzleGUIController and JugView. Cannot figure out how to
+				implement action even for interaction between two buttons (spill to and from). Also cannot figure out why the "view"
+				would not show up in my GUI. Added setChanged and notifyObserver methods to JugPuzzle.Got halfway done implementing
+				a simple non-functional GUI.
+
+Oct 7, 2016
+	Yesterday : I got done with implementing a simple GUI interface that allows the user to play the game.
+	Today     : I want to work further and refine and adjust the workings of the GUI so looks better and to simplify code where possible.
+	Obstacles : Nothing in particular as of now. But in fixing and refining many small details, obstacles are expected.
+	
+Oct 8, 2016
+	Yesterday : Added the case when game is won the ActionListener. Tried various Layouts for the GUI, although I could not decide which
+				I want to use yet.
+	Today     : Further debug the code and add any missing cases/components. Keep working on the GUI.
+	Obstacles : Nothing in particular other than how to improve the GUI graphics from basic layouts to something better.
+	
+Oct 9, 2016
+	Yesterday : Tried to refine and debug the code for the GUI and the Model.
+	Today     : I plan on completing the first draft of the whole assignment.
+	Obstacles : How to get a better looking GUI. How to halt the game when puzzle is solved. How to improve code so it is easier to read
+				and neater.
+	
+Oct 10, 2016
+	Yesterday : Submitted the completed assignment.
+	Today     : Will proof-read and improve code where possible. Look for missing JavaDocs and potential comments.
+	Obstacles : I made the actionListener (and thus the buttons) unresponsive after game completion. I would like to  figure out how to
+				disable them.
+	
+Oct 11, 2016
+	Yesterday : 
+	Today     :
+	Obstacles :
+	
+Oct 12, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Oct 13, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Oct 14, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Oct 15, 2016
+	Yesterday : Submitted a complete assignment (Oct 10).
+	Today     : Want to  add a timer to the game.
+	Obstacles : Figure out how to implement a Swing Timer in MVC format.
+
+Oct 16, 2016
+	Yesterday :
+	Today     : 
+	Obstacles :
+	
+Oct 17, 2016
+	Yesterday :
+	Today     : Commit and push by tonight at midnight for late submission.
+	Obstacles :
